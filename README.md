@@ -61,7 +61,7 @@ Remit is a front-end framework that uses CSS and JS to style HTML elements and c
     <li>Download the Remit <b>CSS</b> & <b>JS</b> File</li>
     <a href="https://github.com/remit-dev/Remit/archive/main.zip">Download</a>
     <li>Copy and paste the Remit <b>CSS</b> & <b>JS</b> CDN link and start.</li>
-    <p><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/remit-dev/Remit@main/src/rt.css&quot;/&gt;</code></p>
+    <p><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/remit-dev/Remit@1.0.2/src/rt.css&quot;/&gt;</code></p>
     <p><code>&lt;script src=&quot;https://cdn.jsdelivr.net/gh/remit-dev/Remit@main/src/rt.js&quot; /&gt;</code></p>
   </ul>
   <h3 id="licences">Licences</h3>
