@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 :root {
    --rt: color-mix(in srgb, var(--mn), #888 20%);
    --hv: color-mix(in srgb, var(--mn), #666 40%);
@@ -457,8 +464,8 @@
    text-decoration: overline;
 }
 [data-rt*="ttd_th"] {
-   -webkit-text-decoration: ttd_through;
-   text-decoration: ttd_through;
+   -webkit-text-decoration: line-through;
+   text-decoration: line-through;
 }
 [data-rt*="ttd_un_ov"] {
    text-decoration: underline overline;
@@ -502,14 +509,14 @@
 [data-rt*="fxd_cr"] {
    -webkit-box-orient: vertical;
    -webkit-box-direction: reverse;
-   -ms-flex-direction: column_reverse;
-   flex-direction: column_reverse;
+   -ms-flex-direction: column-reverse;
+   flex-direction: column-reverse;
 }
 [data-rt*="fxd_rr"] {
    -webkit-box-orient: horizontal;
    -webkit-box-direction: reverse;
-   -ms-flex-direction: row_reverse;
-   flex-direction: row_reverse;
+   -ms-flex-direction: row-reverse;
+   flex-direction: row-reverse;
 }
 [data-rt*="fxw_wp"] {
    -ms-flex-wrap: wrap;
@@ -532,12 +539,12 @@
    align-content: flex-start;
 }
 [data-rt*="alc_sa"] {
-   -ms-flex-line-pack: space_around;
-   align-content: space_around;
+   -ms-flex-line-pack: space-around;
+   align-content: space-around;
 }
 [data-rt*="alc_sb"] {
-   -ms-flex-line-pack: space_between;
-   align-content: space_between;
+   -ms-flex-line-pack: space-between;
+   align-content: space-between;
 }
 [data-rt*="alc_s"] {
    -ms-flex-line-pack: stretch;
